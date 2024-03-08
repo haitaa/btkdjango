@@ -4,4 +4,4 @@ def home(request):
     return HttpResponse('Anasayfa')
 
 def courses(request):
-    return HttpResponse("Kurs Listesi")
+    return HttpResponse('Kurslar')
